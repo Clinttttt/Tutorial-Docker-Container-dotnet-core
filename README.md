@@ -37,8 +37,6 @@ COPY --from=build /app/publish .
 ENTRYPOINT ["dotnet", "Tutorial1DockerSetup_dotnet.dll"]
 ```
 
-> ⚠️ Replace `.NET 7.0` with your version if using .NET 6 or .NET 8.
-> ⚠️ Ensure the `.csproj` filename matches your project.
 
 ---
 
